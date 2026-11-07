@@ -1,12 +1,20 @@
-
 {
+  "id": "./",
   "name": "Zunex AI",
   "short_name": "Zunex",
+  "description": "Zunex AI is an intelligent AI assistant that supports Azerbaijani, Turkish, English and Russian languages. It provides offline knowledge, mathematical calculations and online AI assistance.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#6c4cf5",
+  "orientation": "portrait",
+  "background_color": "#080d18",
   "theme_color": "#6c4cf5",
+  "lang": "az",
+  "categories": [
+    "education",
+    "productivity",
+    "utilities"
+  ],
   "icons": [
     {
       "src": "./icon-192.png",
@@ -19,12 +27,7 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
-    },
-    {
-      "src": "./icon-1024.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "purpose": "any"
     }
-  ]
+  ],
+  "screenshots": []
 }
